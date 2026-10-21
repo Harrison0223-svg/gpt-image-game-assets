@@ -72,6 +72,10 @@ This project was developed in public from September 2026 and became an independe
 
 The fork built on Yang's handdraw-style skill. Nothing in this repository inherits that project's stars, contributors or history. See [CREDITS.md](CREDITS.md) for what is original here, what comes from upstream, and the licensing boundary between the two.
 
+## Community maintenance plan
+
+See the [open-source community participation plan (中文)](docs/open-source-community-plan.zh-CN.md) for this project's maintenance priorities, upstream contribution focus, and contribution evidence tracking.
+
 ## License
 
 MIT — see [LICENSE](LICENSE). The companion style library is licensed separately in its own repository.
