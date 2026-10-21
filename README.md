@@ -62,9 +62,15 @@ Always inspect the returned files: model output can still drift between frames o
 
 The demo images and GIFs referenced from `docs/` and `examples/` are being migrated into this repository. Until that migration lands, they remain available in the original project repository: [Harrison0223-svg/gpt-image-2d-assets](https://github.com/Harrison0223-svg/gpt-image-2d-assets) (see its `examples/` and `docs/images/` folders).
 
-## History and credits
+## Project history
 
-This project began in September 2026 as a game-asset workflow built on Yang's handdraw-style skill, and was extracted into this dedicated repository on 2026-10-21 to be maintained independently. See [CREDITS.md](CREDITS.md) for what is original here, what comes from upstream, and the licensing boundary between the two.
+This project was developed in public from September 2026 and became an independent repository on 2026-10-21.
+
+- **2026-09-21** — The game-asset workflow, this skill and its Python tools were first built in the author's fork [Harrison0223-svg/gpt-image-2d-assets](https://github.com/Harrison0223-svg/gpt-image-2d-assets): see the [initial integration commit](https://github.com/Harrison0223-svg/gpt-image-2d-assets/commit/837bfcef14) and the [documentation commit](https://github.com/Harrison0223-svg/gpt-image-2d-assets/commit/fc698d0a87).
+- **2026-09-22** — The motion workflow was improved with verified key poses and recorded review evidence: [commit](https://github.com/Harrison0223-svg/gpt-image-2d-assets/commit/7182cd260f). The author's full commit list in that fork is [here](https://github.com/Harrison0223-svg/gpt-image-2d-assets/commits?author=Harrison0223-svg).
+- **2026-10-21** — The original skill, tools, tests and docs were extracted into this repository as v0.1.0, so the project is maintained independently, with its own license, CI and releases.
+
+The fork built on Yang's handdraw-style skill. Nothing in this repository inherits that project's stars, contributors or history. See [CREDITS.md](CREDITS.md) for what is original here, what comes from upstream, and the licensing boundary between the two.
 
 ## License
 
