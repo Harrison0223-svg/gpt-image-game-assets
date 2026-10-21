@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: python -m pip install Pillow
+      - name: Run asset tools tests
+        run: python gpt-image-2d-assets/scripts/test_asset_tools.py
+      - name: Run motion review tests
+        run: python gpt-image-2d-assets/scripts/test_motion_review.py
