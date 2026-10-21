@@ -1,0 +1,71 @@
+# GPT Image 2D Game Assets
+
+A Codex skill for making and reviewing 2D game art with the current GPT-image-2.5 workflow: pick a style, generate a sprite sheet, cut it into frames, check the alpha and the key poses, and assemble a timed GIF preview.
+
+The bundled Python tools inspect, crop and assemble real pixels. They do not draw replacement art or invent missing animation frames.
+
+## What's in this repository
+
+- `gpt-image-2d-assets/` — the skill itself: `SKILL.md`, the agent configuration, six reference guides, and the tool scripts.
+- **Tools** — `scripts/asset_tools.py` (alpha inspection, coordinate-based sheet cutting, timed sequence assembly) and `scripts/motion_review.py` (key-pose and motion review), each with its own test file.
+- **24 game-art recipes (G01–G24)** — characters, portraits, inventory icons, effects and backgrounds, written for game production rather than one-off illustration.
+- `docs/` and `examples/` — the fox run-cycle demo write-up, the September 2026 motion-validation notes, and the prompts, timing data and review records behind them.
+
+## Install
+
+Use Codex with the GPT-image-2.5 image workflow. Copy the skill folder into your Codex skills directory, usually `~/.codex/skills/`:
+
+```text
+gpt-image-2d-assets/
+```
+
+Back up an existing folder with this name before updating. You can also give Codex this repository URL and ask it to install the skill.
+
+The crop and inspection tools need Python 3 and Pillow:
+
+```sh
+python -m pip install Pillow
+```
+
+**Optional companion style library:** the skill can also browse a 261-style reference library provided by Yang's separate `handdraw-style-prompter` skill ([yang0/handraw-style](https://github.com/yang0/handraw-style)). Install that skill alongside this one if you want the full style catalogue. The 24 game-art recipes in this repository work without it. See [CREDITS.md](CREDITS.md) for provenance.
+
+## Try it
+
+```text
+In Codex, call `$gpt-image-2d-assets` to make a fox courier in G03 style.
+Keep the background transparent.
+
+Make a 3×3 run cycle for this fox, facing right.
+Cut the sheet into frames and make a GIF preview.
+
+Show this same character in cel, pixel and watercolor styles.
+Keep the outfit, camera and pose the same.
+
+Make a matching set of a potion, key, gem and scroll.
+Check how they read at inventory-icon size.
+```
+
+## Tests
+
+```sh
+python gpt-image-2d-assets/scripts/test_asset_tools.py
+python gpt-image-2d-assets/scripts/test_motion_review.py
+```
+
+CI runs both test files on Python 3.11 and 3.12 for every push and pull request.
+
+## Honest limits
+
+Always inspect the returned files: model output can still drift between frames or change a character's identity. Alpha checks, visual review, playback, engine testing and user approval are recorded separately — a successful file check does not establish animation quality or game readiness. The fox demo's gait still needs refinement before use in a game, and the motion experiments do not establish reliable production-quality animation.
+
+## Demo media
+
+The demo images and GIFs referenced from `docs/` and `examples/` are being migrated into this repository. Until that migration lands, they remain available in the original project repository: [Harrison0223-svg/gpt-image-2d-assets](https://github.com/Harrison0223-svg/gpt-image-2d-assets) (see its `examples/` and `docs/images/` folders).
+
+## History and credits
+
+This project began in September 2026 as a game-asset workflow built on Yang's handdraw-style skill, and was extracted into this dedicated repository on 2026-10-21 to be maintained independently. See [CREDITS.md](CREDITS.md) for what is original here, what comes from upstream, and the licensing boundary between the two.
+
+## License
+
+MIT — see [LICENSE](LICENSE). The companion style library is licensed separately in its own repository.
