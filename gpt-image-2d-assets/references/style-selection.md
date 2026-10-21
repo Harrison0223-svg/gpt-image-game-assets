@@ -12,7 +12,7 @@ python scripts/style_catalog.py --style 063
 python scripts/style_catalog.py --style G03
 ```
 
-- **001–261:** preserved original index and images. Browse `gallery/index.html`.
+- **001–261:** the companion skill's preserved original index and images. Browse `gallery/index.html` in the companion `handdraw-style-prompter` skill.
 - **G01–G24:** game-art text recipes with observable traits, uses and adaptation notes. Browse `gallery/extensions.html`. A recipe without a reviewed sample is not a validated master.
 - **Custom:** use the user's reference or description directly.
 - **Mixed:** name one primary style and a few secondary traits. Explain what each contributes, such as cel color blocks with cut-paper edges. Percentages express intent, not precise mixing controls. Avoid contradictory media requirements.
