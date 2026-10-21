@@ -6,9 +6,9 @@ The bundled Python tools inspect, crop and assemble real pixels. They do not dra
 
 ## What's in this repository
 
-- `gpt-image-2d-assets/` — the skill itself: `SKILL.md`, the agent configuration, six reference guides, and the tool scripts.
+- `gpt-image-2d-assets/` — the skill itself: `SKILL.md`, the agent configuration, seven reference guides, the recipe data, and the tool scripts.
 - **Tools** — `scripts/asset_tools.py` (alpha inspection, coordinate-based sheet cutting, timed sequence assembly) and `scripts/motion_review.py` (key-pose and motion review), each with its own test file.
-- **24 game-art recipes (G01–G24)** — characters, portraits, inventory icons, effects and backgrounds, written for game production rather than one-off illustration.
+- **24 game-art recipes (G01–G24)** — characters, portraits, inventory icons, effects and backgrounds, written for game production rather than one-off illustration; bundled in [`game-styles.json`](gpt-image-2d-assets/references/game-styles.json).
 - `docs/` and `examples/` — the fox run-cycle demo write-up, the September 2026 motion-validation notes, and the prompts, timing data and review records behind them.
 
 ## Install

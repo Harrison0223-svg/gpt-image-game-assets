@@ -1,6 +1,6 @@
 # Choose and apply a style
 
-Resolve the sibling `handdraw-style-prompter` from this skill's parent directory, not the project working directory. Query selected entries instead of loading the whole library. If the companion is absent, use the user's descriptions or references and disclose that numbered lookup is unavailable. Do not guess IDs.
+For G01–G24, read the selected entries in the bundled [game-styles.json](game-styles.json). For original styles 001–261, resolve the sibling `handdraw-style-prompter` from this skill's parent directory, not the project working directory. Query selected entries instead of loading the whole library. If the companion is absent, use the bundled recipes or the user's descriptions and references; disclose that original 001–261 lookup is unavailable. Do not guess IDs.
 
 ## Find a direction
 
@@ -13,7 +13,7 @@ python scripts/style_catalog.py --style G03
 ```
 
 - **001–261:** the companion skill's preserved original index and images. Browse `gallery/index.html` in the companion `handdraw-style-prompter` skill.
-- **G01–G24:** game-art text recipes with observable traits, uses and adaptation notes. Browse `gallery/extensions.html`. A recipe without a reviewed sample is not a validated master.
+- **G01–G24:** bundled game-art text recipes with observable traits, uses and adaptation notes in [game-styles.json](game-styles.json). A recipe without a reviewed sample is not a validated master.
 - **Custom:** use the user's reference or description directly.
 - **Mixed:** name one primary style and a few secondary traits. Explain what each contributes, such as cel color blocks with cut-paper edges. Percentages express intent, not precise mixing controls. Avoid contradictory media requirements.
 

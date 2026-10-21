@@ -5,7 +5,7 @@
 The following were written by Harrison Hu ([Harrison0223-svg](https://github.com/Harrison0223-svg)) in September 2026 and are released under the MIT License (see [LICENSE](LICENSE)):
 
 - The `gpt-image-2d-assets` Codex skill (`SKILL.md`, agent configuration, reference guides)
-- The 24 game-art recipes (G01–G24)
+- The 24 game-art recipes (G01–G24), preserved in `gpt-image-2d-assets/references/game-styles.json` from [the public integration commit](https://github.com/Harrison0223-svg/gpt-image-2d-assets/blob/837bfcef1421ba3f0863933bcf7b310f9f8b0475/handdraw-style-prompter/references/game-styles.json)
 - `scripts/asset_tools.py` and `scripts/motion_review.py`, with their test files
 - The documentation in `docs/` and the demo records in `examples/`
 
