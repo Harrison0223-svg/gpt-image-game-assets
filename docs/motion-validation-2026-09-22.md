@@ -1,5 +1,7 @@
 # Motion workflow experiments — 2026-09-22
 
+> **Media note:** the preview images and GIFs referenced in this document are being migrated into this repository. Until that migration lands, they are viewable in the original project repository: [Harrison0223-svg/gpt-image-2d-assets](https://github.com/Harrison0223-svg/gpt-image-2d-assets) (same file paths under `examples/motion-validation-20260922/`).
+
 The original fox demo remains unchanged. It is evidence of a recurring failure: a valid transparent sheet and GIF can still lack a convincing full gait and arm swing.
 
 ## What was tested
