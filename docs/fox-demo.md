@@ -1,5 +1,7 @@
 # Codex 2D art: from style choice to a nine-frame GIF
 
+> **Media note:** the images embedded in this document are being migrated into this repository. Until that migration lands, they are viewable in the original project repository: [Harrison0223-svg/gpt-image-2d-assets](https://github.com/Harrison0223-svg/gpt-image-2d-assets) (same file paths under `docs/` and `examples/`).
+
 This is the shareable version of the fox courier demo. The workflow combines the style-selection skill with the 2D asset skill and runs in Codex. The current setup uses GPT-image-2.5 for background removal and continuous-frame generation.
 
 The style side started with Yang's handdraw-style skill: 261 original reference styles. We later added 24 game-art recipes for the kinds of characters, props, effects and UI pieces used in game production.
