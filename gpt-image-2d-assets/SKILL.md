@@ -1,6 +1,6 @@
 ---
 name: gpt-image-2d-assets
-description: Generate, edit and review 2D art in Codex with the current GPT-image-2.5 workflow. Choose from 261 reference styles, 24 game-art recipes, custom references or mixed traits; remove backgrounds, generate continuous frames, inspect transparency, cut sprite sheets and deliver timed animation previews.
+description: Generate, edit and review 2D art in Codex with the current GPT-image-2.5 workflow. Choose from 24 game-art recipes, custom references or mixed traits, or an optional companion library of 261 reference styles; remove backgrounds, generate continuous frames, inspect transparency, cut sprite sheets and deliver timed animation previews.
 ---
 
 # GPT Image 2D Assets for Codex
