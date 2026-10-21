@@ -1,0 +1,60 @@
+{
+  "tool": "Codex GPT-image-2.5 workflow",
+  "image_backend": "GPT-image-2.5",
+  "style": [
+    "G03",
+    "G10 secondary shape language"
+  ],
+  "source": "inventory-sheet.png",
+  "size": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "crops": {
+    "potion": [
+      0,
+      0,
+      627,
+      627
+    ],
+    "key": [
+      627,
+      0,
+      1254,
+      627
+    ],
+    "gem": [
+      0,
+      627,
+      627,
+      1254
+    ],
+    "scroll": [
+      627,
+      627,
+      1254,
+      1254
+    ]
+  },
+  "visual_review": {
+    "inspected": [
+      "original",
+      "three-background composite",
+      "128px icons on dark neutral background",
+      "128px icons on dark neutral background"
+    ],
+    "findings": "Four separated items with coordinated red, gold, cyan and ivory colors and clear dark contours. The result has faceted painterly shading and weak secondary cut-paper traits.",
+    "status": "demonstration-reviewed",
+    "engine_validation": false,
+    "user_acceptance": false,
+    "small_size": "The four item types are distinguishable at 128 pixels. No in-game UI interaction test was performed."
+  },
+  "visual_findings": "The original and light/dark composites were visually inspected. The result leans toward faceted painterly shading; the secondary cut-paper traits are weak. Technical alpha checks do not establish engine validation or user acceptance.",
+  "request_original": "以 G03 清晰赛璐璐为主，结合 G10 的剪纸造型，成组生成药水、钥匙、宝石与卷轴，统一光照，背景透明。",
+  "request": "Generate a grouped potion, key, gem and scroll using G03 with G10 cut-paper shapes as secondary traits, shared lighting and a transparent background."
+}
