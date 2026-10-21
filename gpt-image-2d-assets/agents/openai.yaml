@@ -1,0 +1,4 @@
+interface:
+  display_name: "GPT Image 2D Assets"
+  short_description: "Choose a reference or game-art style, then generate and review 2D assets in Codex"
+  default_prompt: "Use $gpt-image-2d-assets in Codex. Make a transparent character master in G03 Clean Cel and inspect the actual image."
