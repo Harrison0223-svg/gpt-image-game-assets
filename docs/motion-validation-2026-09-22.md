@@ -1,6 +1,6 @@
 # Motion workflow experiments — 2026-09-22
 
-> **Media note:** the preview images and GIFs referenced in this document are being migrated into this repository. Until that migration lands, they are viewable in the original project repository: [Harrison0223-svg/gpt-image-2d-assets](https://github.com/Harrison0223-svg/gpt-image-2d-assets) (same file paths under `examples/motion-validation-20260922/`).
+> **Media note:** previews load from a pinned revision of the [original project repository](https://github.com/Harrison0223-svg/gpt-image-2d-assets) while migration into this repository remains incomplete.
 
 The original fox demo remains unchanged. It is evidence of a recurring failure: a valid transparent sheet and GIF can still lack a convincing full gait and arm swing.
 
@@ -24,15 +24,15 @@ The preferred run route then received a local last-frame arm correction and a se
 
 Refined run candidate:
 
-![Run candidate, not final acceptance](../examples/motion-validation-20260922/run-preview.gif)
+![Run candidate, not final acceptance](https://raw.githubusercontent.com/Harrison0223-svg/gpt-image-2d-assets/7182cd260f054832537807fb43c84c01def2271b/examples/motion-validation-20260922/run-preview.gif)
 
 The candidate has clearer near-arm reversal and opposing contacts than the original demo. The compressed phases and far-arm transitions remain review concerns. Foot planting, world-space speed, turns/stops and continuous human viewing have not been accepted.
 
 The wave remains on hold:
 
-![Wave hold: similar raised-hand poses](../examples/motion-validation-20260922/wave-hold.png)
+![Wave hold: similar raised-hand poses](https://raw.githubusercontent.com/Harrison0223-svg/gpt-image-2d-assets/7182cd260f054832537807fb43c84c01def2271b/examples/motion-validation-20260922/wave-hold.png)
 
-[Jump preview](../examples/motion-validation-20260922/jump-preview.gif) and prompts are included in the [selected evidence](../examples/motion-validation-20260922). Full-resolution source sheets and crop manifests remain in the local experiment archive after upload timeouts; this public subset contains review previews, not an import-ready asset pack. The jump drawings already contain vertical movement; integration must not apply it twice. The wave's shorter active-loop experiment does not fulfill the earlier complete greeting action.
+[Jump preview](https://github.com/Harrison0223-svg/gpt-image-2d-assets/blob/7182cd260f054832537807fb43c84c01def2271b/examples/motion-validation-20260922/jump-preview.gif) and prompts are included in the [selected evidence](https://github.com/Harrison0223-svg/gpt-image-2d-assets/tree/7182cd260f054832537807fb43c84c01def2271b/examples/motion-validation-20260922). Full-resolution source sheets and crop manifests remain in the local experiment archive after upload timeouts; this public subset contains review previews, not an import-ready asset pack. The jump drawings already contain vertical movement; integration must not apply it twice. The wave's shorter active-loop experiment does not fulfill the earlier complete greeting action.
 
 ## Changes retained in the skill
 

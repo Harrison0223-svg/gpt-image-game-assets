@@ -4,6 +4,12 @@ A Codex skill for making and reviewing 2D game art with the current GPT-image-2.
 
 The bundled Python tools inspect, crop and assemble real pixels. They do not draw replacement art or invent missing animation frames.
 
+## See it in action
+
+![Nine-frame fox run candidate](https://raw.githubusercontent.com/Harrison0223-svg/gpt-image-2d-assets/7182cd260f054832537807fb43c84c01def2271b/examples/fox-motion/preview.gif)
+
+This is a nine-frame, 0.81-second preview assembled from a generated sprite sheet. It is a workflow demonstration: the gait and loop still need refinement before game use. [View the source sheet](https://github.com/Harrison0223-svg/gpt-image-2d-assets/blob/7182cd260f054832537807fb43c84c01def2271b/examples/fox-motion/fox-run-3x3-v2.png) · [Read the demo](docs/fox-demo.md) · [See the CI run](https://github.com/Harrison0223-svg/gpt-image-game-assets/actions/runs/39631398214).
+
 ## What's in this repository
 
 - `gpt-image-2d-assets/` — the skill itself: `SKILL.md`, the agent configuration, seven reference guides, the recipe data, and the tool scripts.
@@ -13,13 +19,11 @@ The bundled Python tools inspect, crop and assemble real pixels. They do not dra
 
 ## Install
 
-Use Codex with the GPT-image-2.5 image workflow. Copy the skill folder into your Codex skills directory, usually `~/.codex/skills/`:
+Use Codex with the GPT Image workflow available in your environment.
 
-```text
-gpt-image-2d-assets/
-```
-
-Back up an existing folder with this name before updating. You can also give Codex this repository URL and ask it to install the skill.
+1. On this repository's GitHub page, choose **Code → Download ZIP** and extract it.
+2. Copy the extracted `gpt-image-2d-assets` folder into `~/.codex/skills/` (on Windows, `%USERPROFILE%\.codex\skills\`). The result should contain `gpt-image-2d-assets/SKILL.md` inside that skills directory.
+3. Back up any existing folder with the same name before replacing it. If Codex does not show the skill, reopen Codex and check the path. You can also give Codex this repository URL and ask it to install the skill.
 
 The crop and inspection tools need Python 3 and Pillow:
 
@@ -44,6 +48,16 @@ Keep the outfit, camera and pose the same.
 Make a matching set of a potion, key, gem and scroll.
 Check how they read at inventory-icon size.
 ```
+
+## Try an offline alpha check
+
+Download the [fox source sheet](https://raw.githubusercontent.com/Harrison0223-svg/gpt-image-2d-assets/7182cd260f054832537807fb43c84c01def2271b/examples/fox-motion/fox-run-3x3-v2.png) into the repository directory as `fox-run-3x3-v2.png`, then run:
+
+```sh
+python gpt-image-2d-assets/scripts/asset_tools.py inspect fox-run-3x3-v2.png --out fox-review
+```
+
+Use a new or empty output directory. The tool writes `measurements.json` and a three-background preview; open the preview and inspect the original image. An alpha result is not visual or in-game approval. This inspection does not call an image-generation service.
 
 ## Tests
 
