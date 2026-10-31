@@ -12,6 +12,8 @@ python scripts/style_catalog.py --style 063
 python scripts/style_catalog.py --style G03
 ```
 
+Those commands run in the companion `handdraw-style-prompter` skill, which is the one that provides `scripts/style_catalog.py`. This repository has no catalog script of its own: on its own, read G01–G24 entries directly from the bundled [game-styles.json](game-styles.json).
+
 - **001–261:** the companion skill's preserved original index and images. Browse `gallery/index.html` in the companion `handdraw-style-prompter` skill.
 - **G01–G24:** bundled game-art text recipes with observable traits, uses and adaptation notes in [game-styles.json](game-styles.json). A recipe without a reviewed sample is not a validated master.
 - **Custom:** use the user's reference or description directly.
