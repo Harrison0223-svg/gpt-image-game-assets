@@ -1,0 +1,11 @@
+{
+  "name": "gpt-image-2d-assets",
+  "version": "0.2.0",
+  "description": "Generate, review and animate 2D game art with GPT Image: 24 game-art recipes, alpha inspection, sprite-sheet cutting, timed GIF previews.",
+  "author": { "name": "Harrison0223-svg" },
+  "homepage": "https://github.com/Harrison0223-svg/gpt-image-game-assets",
+  "repository": "https://github.com/Harrison0223-svg/gpt-image-game-assets",
+  "license": "MIT",
+  "keywords": ["game-art", "sprite", "gpt-image", "2d", "agent-skills"],
+  "skills": ["./gpt-image-2d-assets"]
+}

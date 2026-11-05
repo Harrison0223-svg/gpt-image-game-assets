@@ -3,6 +3,14 @@
 All notable changes to this project are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/), and this project uses [Semantic Versioning](https://semver.org/).
 
+## [0.2.0] - 2026-11-05
+
+### Added
+
+- Claude Code plugin manifest and marketplace (`.claude-plugin/`): `/plugin marketplace add Harrison0223-svg/gpt-image-game-assets`.
+- `install.py`: stdlib installer for Codex, Claude Code or any skills folder, with `--dry-run`, `--project` and automatic `.bak` backup.
+- Offline tests for the manifests and the installer; CI now runs them.
+
 ## [0.1.0] - 2026-10-21
 
 ### Added

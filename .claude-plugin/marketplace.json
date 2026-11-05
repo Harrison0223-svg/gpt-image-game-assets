@@ -1,0 +1,11 @@
+{
+  "name": "gpt-image-game-assets",
+  "owner": { "name": "Harrison0223-svg" },
+  "plugins": [
+    {
+      "name": "gpt-image-2d-assets",
+      "source": "./",
+      "description": "2D game-art skill: recipes, transparency checks, sprite-sheet cutting, GIF previews."
+    }
+  ]
+}

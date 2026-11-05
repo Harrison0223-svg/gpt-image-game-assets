@@ -19,6 +19,27 @@ This is a nine-frame, 0.81-second preview assembled from a generated sprite shee
 
 ## Install
 
+### Claude Code (plugin)
+
+```text
+/plugin marketplace add Harrison0223-svg/gpt-image-game-assets
+/plugin install gpt-image-2d-assets@gpt-image-game-assets
+```
+
+### One-line installer (Codex, Claude Code, or any skills folder)
+
+```sh
+git clone https://github.com/Harrison0223-svg/gpt-image-game-assets.git
+cd gpt-image-game-assets
+python install.py --target codex     # ~/.codex/skills
+python install.py --target claude    # ~/.claude/skills (add --project for ./.claude/skills)
+python install.py --dest ~/my/skills --dry-run
+```
+
+An existing copy is moved to `gpt-image-2d-assets.bak` first.
+
+### Manual (Codex)
+
 Use Codex with the GPT Image workflow available in your environment.
 
 1. On this repository's GitHub page, choose **Code → Download ZIP** and extract it.

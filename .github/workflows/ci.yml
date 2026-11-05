@@ -21,3 +21,5 @@ jobs:
         run: python gpt-image-2d-assets/scripts/test_asset_tools.py
       - name: Run motion review tests
         run: python gpt-image-2d-assets/scripts/test_motion_review.py
+      - name: Run installer and plugin tests
+        run: python -m unittest discover -s tests
